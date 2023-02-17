@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 1;
+	padding: 20px 0;
+}
+.container {
+	max-width: 1326px;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.dates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.dates__item {
+	width: 24%;
+	margin-bottom: 30px;
+}
+
+.dates__input {
+	margin-right: 10px;
+}
+
+
+.lb {
+	color: #666;
+	font-weight: 600;
+}
+.lb--row {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.input {
+	font: 14px/1.2 Arial;
+	padding: 5px 10px;
+	width: 100px;
+	border: 1px solid #333;
+}
+.input--long {
+	width: 100%;
+	max-width: 728px;
+}
+
+.btn {
+	display: inline-flex;
+	background: #999;
+	border: 1px solid #111;
+	font: 15px/1.2 Arial;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+.btn:hover {
+	background: #777;
+}
+
+.forma__current {
+	margin-bottom: 40px;
+}
+
+.forma__dates {}
+
+.forma__buttons .btn {
+	 margin-right: 20px;
+}
+
+.forma__results {
+	margin: 20px 0;
+	font-weight: bold;
+	font-size: 20px;
+}
