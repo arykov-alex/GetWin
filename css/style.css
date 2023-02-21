@@ -14,9 +14,11 @@ body {
 .container {
 	max-width: 1326px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 
 h1 {
+	font-size: 18px;
 	margin-bottom: 40px;
 	text-align: center;
 }
@@ -75,8 +77,6 @@ h1 {
 	margin-bottom: 40px;
 }
 
-.forma__dates {}
-
 .forma__buttons .btn {
 	 margin-right: 20px;
 }
@@ -85,4 +85,48 @@ h1 {
 	margin: 20px 0;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+/* 1000 */
+@media (max-width: 1000px) {
+
+.dates__item {
+	width: 47%;
+}
+
+.dates__input {
+	width: 45%;
+}
+
+}
+
+/* таблетка */
+@media (max-width: 768px) {
+
+.dates__input  {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+}
+
+
+/* 480 */
+@media (max-width: 480px) {
+
+h1 {
+	font-size: 15px;
+}
+.dates__item {
+	width: 100%;
+}
+
+.forma__buttons .btn {
+	width: 100%;	
+	margin-bottom: 15px;
+	text-align: center;
+	justify-content: center;
+}
+
 }

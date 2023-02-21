@@ -44,12 +44,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Задача 2</title>
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 	<div class="container">
 		<h1>Задача 2: користувач вводить дві фрази в два окремих поля. Система повинна у відсотках визначити на скільки вони схожі за змістом. Саме за змістом, так як слова кожної з фраз можуть бути різними.</h1>
-		<form class="forma" method="post" action="/task-2.php">
+		<form class="forma" method="post" action="./task-2.php">
 			<input type="hidden" name="action" value="compare">
 
 			<div class="forma__current">

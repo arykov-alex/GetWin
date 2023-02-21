@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+DirectoryIndex index.php
+RewriteEngine Off
+RewriteBase /
+ServerSignature Off
+Options -Indexes

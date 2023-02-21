@@ -82,13 +82,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Задача 1</title>
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/include/datepicker/datepicker.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./include/datepicker/datepicker.css">
 </head>
 <body>
 	<div class="container">
 		<h1>Задача 1: користувач задає масив даних: дата та курс долара (до 20 точок). Дати можуть бути непослідовними та різними. Програма має відповісти на питання: який курс долара був чи буде на потрібну дату (також вводиться користувачем та може не співпадати з введеними попередньо), та вивести весь графік для наочності.</h1>
-		<form class="forma" method="post" action="/task-1.php">
+		<form class="forma" method="post" action="./task-1.php">
 			<input type="hidden" name="action" value="send">
 
 			<div class="forma__current date-current">
@@ -112,7 +112,7 @@
 			
 			<div class="forma__buttons">
 				<button class="btn">Відправити</button>
-				<a class="btn" href="/task-1.php?action=fill">Заповнити випадково</a>
+				<a class="btn" href="./task-1.php?action=fill">Заповнити випадково</a>
 			</div>
 		</form>
 		
@@ -153,8 +153,8 @@
 <?php
 	endif;
 ?>
-	<script src="/include/jquery.min.js"></script>
-	<script src="/include/datepicker/datepicker.js"></script>
-	<script src="/include/main.js"></script>
+	<script src="./include/jquery.min.js"></script>
+	<script src="./include/datepicker/datepicker.js"></script>
+	<script src="./include/main.js"></script>
 </body>
 </html>
